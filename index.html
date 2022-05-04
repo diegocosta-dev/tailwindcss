@@ -7,6 +7,7 @@
   <title>Home Smart</title>
 </head>
 <body class="body-config">
+  <!-- Nav bar -->
   <nav class="navbar">
     <div class="nav-container">
       <a href="/" class="nav-logo" aria-label="Go to home page">
@@ -18,13 +19,21 @@
         </svg>
       </button>
     </div>
-    <div role="menubar" class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:shadow-none lg:top-0 justify-between lg:w-full">
+    <div role="menubar" class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:shadow-none lg:top-0 justify-between lg:w-full z-40">
       <a class="py-1 px-6 dark:text-neutral-900 button-focus hover:bg-amber-500 transition-colors" role="menuitem" href="/">Home</a>
       <a class="py-1 px-6 dark:text-neutral-900 button-focus hover:bg-amber-500 transition-colors lg:mr-auto" role="menuitem" href="/">Contact</a>
       <a class="py-1 px-6 dark:text-neutral-900 button-focus hover:bg-amber-500 transition-colors" role="menuitem" href="/">Login</a>
       <a class="py-2 px-6 button-focus bg-gray-800 text-white rounded-md shadow-xl hover:shadow-none transition-shadow transition-colors hover:text-opacity-75 hover:bg-gray-900" role="menuitem" href="/">Sign Up</a>
     </div>
   </nav>
+  <!-- Header -->
+  <header class="relative pt-16 md:pt-24 lg:pt-48">
+  <div class="absolute inset-0 bottom-8 md:bottom-24 lg:bottom-32 -z-10 bg-gradient-to-b from-amber-400 to-amber-600"></div>
+    <div class="container mx-auto grid grid-rows-1 place-items-end px-2">
+      <img class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto" src="./assets/couch.png" alt="Couch">
+      <img class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64 lg:w-72" src="./assets/app.svg" alt="App">
+    </div>
+  </header>
   <script type="module" src="/main.js"></script>
 </body>
 </html>
