@@ -31,6 +31,11 @@
   @apply focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400 
 }
 
+.button-focus-waite {
+  @apply focus:outline-none focus-visible:ring-4 ring-white rounded-sm ring-offset-4 ring-offset-black 
+}
+
+
 .hover-button {
   @apply text-neutral-900 hover:text-neutral-600 transition-colors
 }
